@@ -1,0 +1,10 @@
+文件说明：
+1、entiment_word_extend_by_word2vec.py、propery_word_extend_by_word2vec.py、degree_word_extend_by_word2vec.py分别对应三个评价词、评价对象和程度词的扩展程序；
+2． vectors_test.bin是Word2Vec训练的词向量二进制结果；
+3．word_sentiment_list_group_cixing.txt、       word_propery_list_group_cixing.txt、word_degree_list_group_cixing.txt分别是从1中得到的初始结果，从中可以看到结果的词性分布，备选词的相似度评分（评分越高则与种子词越相近）；
+4．car_sentiment_dic.txt、car_entity_property.txt、car_degree_dic.txt分别是手工删除后得到的最终结果，供汽车评论舆情挖掘调用。程度词和评价词有一定的通用性，评价对象则主要是从语料中提取出的和汽车相关的实体词。
+entiment_word_extend_by_word2vec.py、propery_word_extend_by_word2vec.py、degree_word_extend_by_word2vec.py分别对应三个评价词、评价对象和程度词的扩展程序；
+2． vectors_test.bin是Word2Vec训练的词向量二进制结果；
+3．word_sentiment_list_group_cixing.txt、       word_propery_list_group_cixing.txt、word_degree_list_group_cixing.txt分别是从1中得到的初始结果，从中可以看到结果的词性分布，备选词的相似度评分（评分越高则与种子词越相近）；
+4．car_sentiment_dic.txt、car_entity_property.txt、car_degree_dic.txt分别是手工删除后得到的最终结果，供汽车评论舆情挖掘调用。程度词和评价词有一定的通用性，评价对象则主要是从语料中提取出的和汽车相关的实体词。
+
